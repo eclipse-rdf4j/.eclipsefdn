@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-rdf4j') {
+orgs.newOrg('technology.rdf4j', 'eclipse-rdf4j') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
