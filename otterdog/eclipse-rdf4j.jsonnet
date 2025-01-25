@@ -51,6 +51,7 @@ orgs.newOrg('technology.rdf4j', 'eclipse-rdf4j') {
       merge_commit_message: "BLANK",
       merge_commit_title: "PR_TITLE",
       squash_merge_commit_title: "PR_TITLE",
+      gh_pages_build_type: "workflow",
       topics+: [
         "hacktoberfest",
         "java",
