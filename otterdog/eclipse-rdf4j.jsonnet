@@ -52,6 +52,14 @@ orgs.newOrg('technology.rdf4j', 'eclipse-rdf4j') {
       merge_commit_title: "PR_TITLE",
       squash_merge_commit_title: "PR_TITLE",
       gh_pages_build_type: "workflow",
+      environments: [
+        orgs.newEnvironment('github-pages') {
+          branch_policies+: [
+            "main"
+          ],
+          deployment_branch_policy: "selected",
+        },
+      ],
       topics+: [
         "hacktoberfest",
         "java",
