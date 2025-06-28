@@ -4,7 +4,7 @@ orgs.newOrg('technology.rdf4j', 'eclipse-rdf4j') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
-      actions_can_approve_pull_request_reviews: false,
+      actions_can_approve_pull_request_reviews: true,
     },
   },
   webhooks+: [
