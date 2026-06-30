@@ -104,14 +104,14 @@ orgs.newOrg('technology.rdf4j', 'eclipse-rdf4j') {
         orgs.newBranchProtectionRule('develop') {
           required_approving_review_count: null,
           required_status_checks+: [
-            "any:build (11)"
+            "any:build (25)"
           ],
           requires_pull_request: false,
         },
         orgs.newBranchProtectionRule('main') {
           required_approving_review_count: null,
           required_status_checks+: [
-            "any:build (11)"
+            "any:build (25)"
           ],
           requires_pull_request: false,
         },
